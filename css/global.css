@@ -1,0 +1,38 @@
+* {
+	font-size: 16px;
+}
+
+.no-mobile {
+	display: none;
+}
+
+@media (min-width: 600px) {
+	.no-mobile {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		width: 100vw;
+		height: 100vh;
+
+		background-color: #ffdf23;
+		color: #0f7562;
+	}
+
+	.no-mobile .logo {
+		width: 7em;
+		height: 7em;
+
+		margin-bottom: 1em;
+
+		background: url('../images/logo.png') no-repeat 0 50%;
+		background-size: contain;
+
+		text-indent: -1000px;
+	}
+
+	.no-mobile p {
+		font-size: 1.3em;
+	}
+}
