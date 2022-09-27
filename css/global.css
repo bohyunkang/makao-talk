@@ -82,3 +82,52 @@ main {
 	width: 7.5vw;
 	background-image: url('../images/battery.png');
 }
+
+/* 헤더 영역 */
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 2vw 4.2vw;
+	height: 10vw;
+}
+
+header h1 {
+	font-size: 6vw;
+	font-weight: 500;
+}
+
+header nav ul {
+	display: flex;
+	gap: 4vw;
+}
+
+header nav li {
+	height: 5vw;
+}
+
+header nav a {
+	display: block;
+
+	width: 5vw;
+	height: 5vw;
+
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: contain;
+
+	text-indent: -1000px;
+}
+
+header nav .search a {
+	background-image: url('../images/search.png');
+}
+
+header nav .add-friend a {
+	background-image: url('../images/add-friend.png');
+}
+
+header nav .settings a {
+	background-image: url('../images/settings.png');
+}
