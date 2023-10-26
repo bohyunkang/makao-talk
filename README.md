@@ -1,4 +1,4 @@
-# mega-talk
+# makao-talk
 
 ## 친구 목록 페이지
 <img src="https://user-images.githubusercontent.com/65386533/192689292-a20c7414-831e-45d1-ac55-acca8de07169.png" width="500">
